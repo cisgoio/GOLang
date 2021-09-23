@@ -1,0 +1,66 @@
+//-----------------
+//-----------------
+/* ----------GOLang->GOLearn
+
+pointers  20210922_181440
+
+iabic :-) SDNScottie : referenced types  20210922_181310
+, primitive data types  20210922_175129
+, A-Z: tutorials/examples  20210307_102425
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 38
+
+------------/GOLang->GOLearn */
+
+//=================
+//=TOP: 
+//=================
+
+/* ----------GOPlay Cisgo :-D
+
+https://medium.com/swlh/primitive-data-types-in-go-263ed487fba1
+
+Pointers in Go are almost like a simplified version of the traditional pointer in C/C++. In Go, you still have the basic operations of referencing a pointer’s value as well as memory address, but not much more than that. If you’re rusty on pointers, here’s a great short video:
+
+https://www.youtube.com/watch?v=VvHDY5STNhU&feature=emb_logo
+
+https://medium.com/swlh/primitive-data-types-in-go-263ed487fba1
+
+Let’s look at some examples for Go.
+var myName *string
+
+Here we have a basic uninitialized pointer that points to nothing, 
+if we were to try to print this out it would just be <nil>. 
+
+We can’t just assign a value to the pointer, instead we have to dereference in order to change that pointer’s value. Not just that, 
+Go also enforces us to define an address to store this pointer’s value at — again enforcing developer security (would’ve been nice Java, would’ve been nice).
+
+// The wrong way:
+var myName *string
+myName = "Israel"    // Error: assigning string to pointer type
+*myName = "Israel"   // Error: pointer with no address
+
+// The right way:
+var myName *string = new(string)  // give the pointer an address
+*myName = "Israel"   // dereference pointer and assign a value
+If we wanted to access that pointer, myName would give us the address and *myName would give the value stored at that address.
+
+We can also create pointers that point to a variable, and it’s very simple.
+favoriteNumber := 2.718 // define some variable
+ptr := &favoriteNumber  // assign pointer to that variable's address
+Now, ptr is the memory address and *ptr dereferences to the value 2.718.
+
+Go has made the effort to remove pointer arithmetic, which while useful in the right situation can be extremely error prone and cumbersome. So, Go just removes the capability outright.
+
+
+Q: What's so great about GOLang ?
+A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready, Go Scottie Go.. twitter@cisgoio!
+
+------------/GOPlay twitter@cisgoio :-D */
+
+//=================
+//=SRC: 
+//=================
+
