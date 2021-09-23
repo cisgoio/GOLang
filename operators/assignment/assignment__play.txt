@@ -1,0 +1,77 @@
+//-----------------
+//-----------------
+/* ----------GOLang->GOLearn
+
+Assignment  20210922_203955
+
+iabic :-) SDNScottie : Operators 20210922_203815
+, A-Z: tutorials/examples  20210307_102425
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 38
+
+------------/GOLang->GOLearn */
+
+//=================
+//=TOP: 
+//=================
+
+/* ----------GOPlay Cisgo :-D
+
+Assignment operators are used to assigning a value to a variable. The left side operand of the assignment operator is a variable and right side operand of the assignment operator is a value. The value on the right side must be of the same data-type of the variable on the left side otherwise the compiler will raise an error. Different types of assignment operators are shown below:
+
+“=”(Simple Assignment): This is the simplest assignment operator. This operator is used to assign the value on the right to the variable on the left.
+“+=”(Add Assignment): This operator is combination of ‘+’ and ‘=’ operators. This operator first adds the current value of the variable on left to the value on the right and then assigns the result to the variable on the left.
+“-=”(Subtract Assignment): This operator is combination of ‘-‘ and ‘=’ operators. This operator first subtracts the current value of the variable on left from the value on the right and then assigns the result to the variable on the left.
+“*=”(Multiply Assignment): This operator is combination of ‘*’ and ‘=’ operators. This operator first multiplies the current value of the variable on left to the value on the right and then assigns the result to the variable on the left.
+“/=”(Division Assignment): This operator is combination of ‘/’ and ‘=’ operators. This operator first divides the current value of the variable on left by the value on the right and then assigns the result to the variable on the left.
+“%=”(Modulus Assignment): This operator is combination of ‘%’ and ‘=’ operators. This operator first modulo the current value of the variable on left by the value on the right and then assigns the result to the variable on the left.
+“&=”(Bitwise AND Assignment): This operator is combination of ‘&’ and ‘=’ operators. This operator first “Bitwise AND” the current value of the variable on the left by the value on the right and then assigns the result to the variable on the left.
+“^=”(Bitwise Exclusive OR): This operator is combination of ‘^’ and ‘=’ operators. This operator first “Bitwise Exclusive OR” the current value of the variable on left by the value on the right and then assigns the result to the variable on the left.
+“|=”(Bitwise Inclusive OR): This operator is combination of ‘|’ and ‘=’ operators. This operator first “Bitwise Inclusive OR” the current value of the variable on left by the value on the right and then assigns the result to the variable on the left.
+
+Q: What's so great about GOLang ?
+A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready, Go Scottie Go.. twitter@cisgoio!
+
+------------/GOPlay twitter@cisgoio :-D */
+
+//=================
+//=SRC: 
+//=================
+
+// Go program to illustrate the
+// use of assignment operators
+package main
+
+import "fmt"
+
+func main() {
+var p int = 45
+	var q int = 50
+	
+// “=”(Simple Assignment)
+p = q
+fmt.Println(p)
+	
+// “+=”(Add Assignment)
+	p += q
+fmt.Println(p)
+	
+//“-=”(Subtract Assignment)
+p-=q
+fmt.Println(p)
+	
+// “*=”(Multiply Assignment)
+p*= q
+fmt.Println(p)
+	
+// “/=”(Division Assignment)
+	p /= q
+fmt.Println(p)
+	
+	// “%=”(Modulus Assignment)
+	p %= q
+fmt.Println(p)
+	
+}
