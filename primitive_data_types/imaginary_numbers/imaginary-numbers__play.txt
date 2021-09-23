@@ -1,0 +1,60 @@
+//-----------------
+//-----------------
+/* ----------GOLang->GOLearn
+
+imaginary numbers  20210922_175757
+
+iabic :-) SDNScottie : numbers  20210922_175743
+, primitive data types  20210922_175129
+, A-Z: tutorials/examples  20210307_102425
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 38
+
+------------/GOLang->GOLearn */
+
+//=================
+//=TOP: 
+//=================
+
+/* ----------GOPlay Cisgo :-D
+
+https://medium.com/swlh/primitive-data-types-in-go-263ed487fba1
+
+If you’re a math guy, Go also has support for imaginary numbers! You don’t even have to import any packages, this is built in functionality.
+complexNumber := complex(4, 5)
+If we were to print this number with fmt.Println(complexNumber), we would get the output (3+4i). Neat!
+
+https://www.geeksforgeeks.org/data-types-in-go/
+
+complex64	Complex numbers which contain float32 as a real and imaginary component.
+
+complex128	Complex numbers which contain float64 as a real and imaginary component
+
+
+Q: What's so great about GOLang ?
+A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready, Go Scottie Go.. twitter@cisgoio!
+
+------------/GOPlay twitter@cisgoio :-D */
+
+//=================
+//=SRC: https://play.golang.org/p/D50tWsu9qUr
+//=================
+
+//==Go program to illustrate
+//==the use of complex numbers
+package main
+import "fmt"
+
+func main() {
+	
+var a complex128 = complex(6, 2)
+var b complex64 = complex(9, 2)
+fmt.Println(a)
+fmt.Println(b)
+	
+//==Display the type
+fmt.Printf("The type of a is %T and "+
+			"the type of b is %T", a, b)
+}
