@@ -1,0 +1,32 @@
+//-----------------
+//-----------------
+/* ----------GOLang->GOLearn
+
+variables  20210922_203600
+
+iabic :-) SDNScottie : primitive data types  20210922_175129
+, A-Z: tutorials/examples  20210307_102425
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 38
+
+------------/GOLang->GOLearn */
+
+//=================
+//=TOP: 
+//=================
+
+/* ----------GOPlay Cisgo :-D
+
+https://www.geeksforgeeks.org/go-variables/
+
+Q: What's so great about GOLang ?
+A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready, Go Scottie Go.. twitter@cisgoio!
+
+------------/GOPlay twitter@cisgoio :-D */
+
+//=================
+//=SRC: 
+//=================
+
