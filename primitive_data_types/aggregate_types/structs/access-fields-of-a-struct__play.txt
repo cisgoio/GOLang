@@ -1,0 +1,63 @@
+//-----------------
+//-----------------
+/* ----------GOLang->GOLearn
+
+access fields of a struct  20210922_211347
+
+iabic :-) SDNScottie : structs  20210922_181356
+, aggregate types  20210922_181330
+, primitive data types  20210922_175129
+, A-Z: tutorials/examples  20210307_102425
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 38
+
+------------/GOLang->GOLearn */
+
+//=================
+//=TOP: 
+//=================
+
+/* ----------GOPlay Cisgo :-D
+
+https://www.geeksforgeeks.org/structures-in-golang/
+
+Q: What's so great about GOLang ?
+A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready, Go Scottie Go.. twitter@cisgoio!
+
+------------/GOPlay twitter@cisgoio :-D */
+
+//=================
+//=SRC: https://play.golang.org/p/FTeLKhMVG7B
+//=================
+
+// Golang program to show how to
+// access the fields of struct
+package main
+
+import "fmt"
+
+// defining the struct
+type Car struct {
+	Name, Model, Color string
+	WeightInKg		 float64
+}
+
+// Main Function
+func main() {
+	c := Car{Name: "Ferrari", Model: "GTC4",
+			Color: "Red", WeightInKg: 1920}
+
+	// Accessing struct fields
+	// using the dot operator
+	fmt.Println("Car Name: ", c.Name)
+	fmt.Println("Car Color: ", c.Color)
+
+	// Assigning a new value
+	// to a struct field
+	c.Color = "Black"
+	
+	// Displaying the result
+	fmt.Println("Car: ", c)
+}
