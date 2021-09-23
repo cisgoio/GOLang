@@ -1,0 +1,59 @@
+//-----------------
+//-----------------
+/* ----------GOLang->GOLearn
+
+( if ... else )  20210922_204743
+
+iabic :-) SDNScottie : decide using ( if/else )  20210922_204554
+, A-Z: tutorials/examples  20210307_102425
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 38
+
+------------/GOLang->GOLearn */
+
+//=================
+//=TOP: 
+//=================
+
+/* ----------GOPlay Cisgo :-D
+
+https://www.geeksforgeeks.org/go-decision-making-if-if-else-nested-if-if-else-if/
+
+Q: What's so great about GOLang ?
+A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready, Go Scottie Go.. twitter@cisgoio!
+
+------------/GOPlay twitter@cisgoio :-D */
+
+//=================
+//=SRC: 
+//=================
+
+// Go program to illustrate the
+// use of if...else statement
+package main
+
+import "fmt"
+
+func main() {
+	
+// taking a local variable
+var v int = 1200
+
+// using if statement for
+// checking the condition
+if(v < 1000) {
+		
+	// print the following if
+	// condition evaluates to true
+	fmt.Printf("v is less than 1000\n")
+	
+} else {
+		
+	// print the following if
+	// condition evaluates to true
+	fmt.Printf("v is greater than 1000\n")
+}
+	
+}
