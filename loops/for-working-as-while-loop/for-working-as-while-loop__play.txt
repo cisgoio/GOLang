@@ -1,0 +1,48 @@
+//-----------------
+//-----------------
+/* ----------GOLang->GOLearn
+
+( for ) working as a ( while ) loop  20210922_205232
+
+iabic :-) SDNScottie : Loops  20210922_205030
+, A-Z: tutorials/examples  20210307_102425
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 38
+
+------------/GOLang->GOLearn */
+
+//=================
+//=TOP: 
+//=================
+
+/* ----------GOPlay Cisgo :-D
+
+Q: What's so great about GOLang ?
+A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready, Go Scottie Go.. twitter@cisgoio!
+
+------------/GOPlay twitter@cisgoio :-D */
+
+//=================
+//=SRC: 
+//=================
+
+// Go program to illustrate the
+// the for loop as while Loop
+package main
+
+import "fmt"
+
+// Main function
+func main() {
+	
+	// while loop
+	// for loop executes till
+	// i < 3 condition is true
+	i:= 0
+	for i < 3 {
+	i += 2
+	}
+fmt.Println(i)
+}
