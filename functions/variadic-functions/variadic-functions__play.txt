@@ -1,0 +1,57 @@
+//-----------------
+//-----------------
+/* ----------GOLang->GOLearn
+
+Variadic Functions  20210922_210033
+
+iabic :-) SDNScottie : functions 20210922_205744
+, A-Z: tutorials/examples  20210307_102425
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 38
+
+------------/GOLang->GOLearn */
+
+//=================
+//=TOP: 
+//=================
+
+/* ----------GOPlay Cisgo :-D
+
+https://www.geeksforgeeks.org/variadic-functions-in-go/
+
+Q: What's so great about GOLang ?
+A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready, Go Scottie Go.. twitter@cisgoio!
+
+------------/GOPlay twitter@cisgoio :-D */
+
+//=================
+//=SRC: 
+//=================
+
+// Go program to illustrate the
+// concept of variadic function
+package main
+
+import(
+	"fmt"
+	"strings"
+)
+
+// Variadic function to join strings
+func joinstr(element...string)string{
+	return strings.Join(element, "-")
+}
+
+func main() {
+
+// zero argument
+fmt.Println(joinstr())
+	
+// multiple arguments
+fmt.Println(joinstr("GEEK", "GFG"))
+fmt.Println(joinstr("Geeks", "for", "Geeks"))
+fmt.Println(joinstr("G", "E", "E", "k", "S"))
+	
+}
