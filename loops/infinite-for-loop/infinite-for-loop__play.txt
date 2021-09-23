@@ -1,0 +1,45 @@
+//-----------------
+//-----------------
+/* ----------GOLang->GOLearn
+
+infinite( for ) loop  20210922_205148
+
+iabic :-) SDNScottie : Loops  20210922_205030
+, A-Z: tutorials/examples  20210307_102425
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 38
+
+------------/GOLang->GOLearn */
+
+//=================
+//=TOP: 
+//=================
+
+/* ----------GOPlay Cisgo :-D
+
+Q: What's so great about GOLang ?
+A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready, Go Scottie Go.. twitter@cisgoio!
+
+------------/GOPlay twitter@cisgoio :-D */
+
+//=================
+//=SRC: 
+//=================
+
+// Go program to illustrate the
+// use of an infinite loop
+package main
+
+import "fmt"
+
+// Main function
+func main() {
+	
+	// Infinite loop
+	for {
+	fmt.Printf("GeeksforGeeks\n")
+	}
+	
+}
