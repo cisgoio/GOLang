@@ -1,0 +1,61 @@
+//-----------------
+//-----------------
+/* ----------GOLang->GOLearn
+
+pointers to a struct  20210922_211443
+
+iabic :-) SDNScottie : structs  20210922_181356
+, aggregate types  20210922_181330
+, primitive data types  20210922_175129
+, A-Z: tutorials/examples  20210307_102425
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 38
+
+------------/GOLang->GOLearn */
+
+//=================
+//=TOP: 
+//=================
+
+/* ----------GOPlay Cisgo :-D
+
+https://www.geeksforgeeks.org/structures-in-golang/
+
+Pointers in Go programming language or Golang is a variable which is used to store the memory address of another variable. You can also create a pointer to a struct as shown in the below example:
+
+Q: What's so great about GOLang ?
+A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready, Go Scottie Go.. twitter@cisgoio!
+
+------------/GOPlay twitter@cisgoio :-D */
+
+//=================
+//=SRC: https://play.golang.org/p/aA_cnFA-yLr
+//=================
+
+// Golang program to illustrate
+// the pointer to struct
+package main
+
+import "fmt"
+
+// defining a structure
+type Employee struct {
+	firstName, lastName string
+	age, salary int
+}
+
+func main() {
+
+	// passing the address of struct variable
+	// emp8 is a pointer to the Employee struct
+	emp8 := &Employee{"Sam", "Anderson", 55, 6000}
+
+	// (*emp8).firstName is the syntax to access
+	// the firstName field of the emp8 struct
+	fmt.Println("First Name:", (*emp8).firstName)
+	fmt.Println("Age:", (*emp8).age)
+}
+
+
