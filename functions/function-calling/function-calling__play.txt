@@ -1,0 +1,52 @@
+//-----------------
+//-----------------
+/* ----------GOLang->GOLearn
+
+Function Calling  20210922_205844
+
+iabic :-) SDNScottie : functions 20210922_205744
+, A-Z: tutorials/examples  20210307_102425
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 38
+
+------------/GOLang->GOLearn */
+
+//=================
+//=TOP: 
+//=================
+
+/* ----------GOPlay Cisgo :-D
+
+Q: What's so great about GOLang ?
+A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready, Go Scottie Go.. twitter@cisgoio!
+
+------------/GOPlay twitter@cisgoio :-D */
+
+//=================
+//=SRC: 
+//=================
+
+// Go program to illustrate the
+// use of function
+package main
+import "fmt"
+
+// area() is used to find the
+// area of the rectangle
+// area() function two parameters,
+// i.e, length and width
+func area(length, width int)int{
+	
+	Ar := length* width
+	return Ar
+}
+
+// Main function
+func main() {
+
+// Display the area of the rectangle
+// with method calling
+fmt.Printf("Area of rectangle is : %d", area(12, 10))
+}
