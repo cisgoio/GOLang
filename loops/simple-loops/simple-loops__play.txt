@@ -1,0 +1,50 @@
+//-----------------
+//-----------------
+/* ----------GOLang->GOLearn
+
+simple  20210922_205116
+
+iabic :-) SDNScottie : Loops  20210922_205030
+, A-Z: tutorials/examples  20210307_102425
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 38
+
+------------/GOLang->GOLearn */
+
+//=================
+//=TOP: 
+//=================
+
+/* ----------GOPlay Cisgo :-D
+
+https://www.geeksforgeeks.org/loops-in-go-language/
+
+Q: What's so great about GOLang ?
+A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready, Go Scottie Go.. twitter@cisgoio!
+
+------------/GOPlay twitter@cisgoio :-D */
+
+//=================
+//=SRC: 
+//=================
+
+// Go program to illustrate the
+// use of simple for loop
+package main
+
+import "fmt"
+
+// Main function
+func main() {
+	
+	// for loop
+	// This loop starts when i = 0
+	// executes till i<4 condition is true
+	// post statement is i++
+	for i := 0; i < 4; i++{
+	fmt.Printf("GeeksforGeeks\n")
+	}
+	
+}
