@@ -1,0 +1,40 @@
+//-----------------
+//-----------------
+/* ----------GOLang->GOLearn
+
+greater (?)  20211005_090232
+
+iabic :-) SDNScottie : Relational, Comparison  20210922_203917
+, Operators 20210922_203815
+, A-Z: tutorials/examples  20210307_102425
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 40
+
+------------/GOLang->GOLearn */
+
+/*
+//=================
+//=TOPic,REFs: 
+//=================
+
+>     greater
+>=    greater or equal
+
+
+*/
+//=================
+//=END:TOPic,REFs: 
+//=================
+
+/* ----------GOPlay Cisgo :-D
+ Q: What is so great about GOLang ?
+ A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready
+ Go Scottie Go.. twitter@cisgoio!
+------------/GOPlay twitter@cisgoio :-D */
+
+//=================
+//=SRC: 
+//=================
+
