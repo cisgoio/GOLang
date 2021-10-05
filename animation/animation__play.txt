@@ -33,7 +33,7 @@ Original: https://play.golang.org/p/F4B36R0WWp
 ------------/GOPlay twitter@cisgoio :-D */
 
 //=================
-//=SRC: 
+//=SRC: https://play.golang.org/p/GDDMkCLxP0h
 //=================
 
 
