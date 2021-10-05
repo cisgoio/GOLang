@@ -4,8 +4,7 @@
 
 v20211005, animation  20211005_094603
 
-iabic :-) SDNScottie : animation  20210922_174043
-, GOPLAYGROUND  20210922_070755
+iabic :-) SDNScottie : animation  20211005_100505
 , A-Z: tutorials/examples  20210307_102425
 , GOLang  20210209_210139
 , Languages, Computer/Natural
@@ -30,12 +29,13 @@ Original: https://play.golang.org/p/F4B36R0WWp
 /* ----------GOPlay Cisgo :-D
  Q: What is so great about GOLang ?
  A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready
- Go Scottie Go.. twitter@cisgoio!
+ Go Scottie Go.. twitter@cisgoio,CisgoCoachU2SDN=TURBOCareer->mail:rest@cisgo.io !
 ------------/GOPlay twitter@cisgoio :-D */
 
 //=================
 //=SRC: 
 //=================
+
 
 package main
 
