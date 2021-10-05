@@ -1,0 +1,236 @@
+//-----------------
+//-----------------
+/* ----------GOLang->GOLearn
+
+v20211005, animation  20211005_094603
+
+iabic :-) SDNScottie : animation  20210922_174043
+, GOPLAYGROUND  20210922_070755
+, A-Z: tutorials/examples  20210307_102425
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 40
+
+------------/GOLang->GOLearn */
+
+/*
+//=================
+//=TOPic,REFs: 
+//=================
+
+Original: https://play.golang.org/p/F4B36R0WWp
+
+
+*/
+//=================
+//=END:TOPic,REFs: 
+//=================
+
+/* ----------GOPlay Cisgo :-D
+ Q: What is so great about GOLang ?
+ A: Multi-(CORE & THREAD), CONCURRENT, (DevSEC/RESTSec/Cisgo)-Ready
+ Go Scottie Go.. twitter@cisgoio!
+------------/GOPlay twitter@cisgoio :-D */
+
+//=================
+//=SRC: 
+//=================
+
+package main
+
+import (
+	"fmt"
+	"math"
+	"math/rand"
+	"strings"
+	"time"
+)
+
+const (
+	seedling = 11 // user interaction!
+
+	width, height = 100, 10
+	gravity       = 0.01
+	minA, maxA    = -math.Pi / 2, math.Pi / 2
+
+	building uint8 = '#'
+	gopher         = '@'
+	nut            = '*'
+	none           = ' '
+
+	timeout = 5 * time.Minute
+)
+
+var buffer []uint8
+
+const (
+	None int = iota
+	NutInAir
+	Explosion
+	NextGopher
+	Winner
+)
+
+func main() {
+	rand.Seed(seedling)
+
+	//==initialize buffer
+	buffer = make([]uint8, (width+1)*height)
+	for p := 0; p < len(buffer); p++ {
+		if p%(width+1) == width {
+			buffer[p] = '\n'
+		} else {
+			buffer[p] = none
+		}
+	}
+
+	//==draw skyline
+	for x := 0; x < width; x += 3 {
+		h := rand.Intn(5) + 1
+		for y := height; y >= height-h; y-- {
+			set(x, y, building)
+			set(x+1, y, building)
+			set(x+2, y, building)
+		}
+	}
+
+	//==position gophers
+	gophers := make([]struct {
+		pos vector
+		dir float64
+	}, 2)
+	step := width / (len(gophers) + 1)
+	for p := range gophers {
+		x, y := step*(p+1), height-1
+		for ; y >= 0; y-- {
+			if get(x, y) == ' ' {
+				break
+			}
+		}
+		gophers[p].pos.x = float64(x)
+		gophers[p].pos.y = float64(y)
+		gophers[p].dir = rand.Float64()*(maxA-minA) + minA
+		set(x, y, gopher)
+	}
+
+	//==update loop
+	var (
+		curGopher = len(gophers) - 1
+		state     = NextGopher
+		flying    = struct{ pos, vel vector }{}
+		wind      = 0.0
+
+		start = time.Now()
+		round = 0
+	)
+	for range time.Tick(50 * time.Millisecond) {
+		fmt.Print("\x0c", string(buffer))
+
+		switch state {
+		case NutInAir:
+			// remove old position
+			x, y := flying.pos.pos()
+			set(x, y, none)
+
+			// nut out of bounds
+			if x >= width || x < 0 || y >= height || y < -height*1.5 {
+				state = NextGopher
+				continue
+			}
+
+			// SCIENCE! STAND BACK!
+			flying.vel = flying.vel.add(vector{wind, gravity}).normalize()
+			flying.pos = flying.pos.add(flying.vel)
+			x, y = flying.pos.pos()
+
+			// collision detection
+			switch get(x, y) {
+			case building:
+				state = Explosion
+				continue
+			case gopher:
+				if gx, gy := gophers[curGopher].pos.pos(); gx == x && gy == y {
+					// own nut, ignore
+					continue
+				}
+				state = Winner
+			}
+
+			//==draw new position
+			set(x, y, nut)
+		case Explosion:
+			x, y := flying.pos.pos()
+			set(x, y, none)
+			state = NextGopher
+			//==TODO: draw a little animation
+		case NextGopher:
+			//==select next
+			curGopher = (curGopher + 1) % 2
+			if curGopher == 0 {
+				round++
+			}
+
+			// TODO: alter wind
+			// implement flow of gases on a large scale
+			// probably a highly complex fluid simulation
+			// if curGopher == 0 { wind = (rand.Float64() - 0.5) / 100 }
+
+			// alter direction
+			// TODO: a little more intelligence is needed, these are not gorillas...
+			r := gophers[curGopher].dir + rand.Float64() - 0.5
+			gophers[curGopher].dir = math.Max(minA, math.Min(maxA, r))
+
+			// launch new nut
+			flying.pos = gophers[curGopher].pos
+			flying.vel = vecFromAngle(gophers[curGopher].dir)
+			state = NutInAir
+		case Winner:
+			fmt.Printf("\x0c%sGopher #%d wins in round %d!", strings.Repeat(" ", width/2-18), curGopher+1, round)
+			fmt.Print("\n", string(buffer))
+			return
+		}
+
+		// redraw gopher, might be overwritten by own nut...
+		x, y := gophers[curGopher].pos.pos()
+		set(x, y, gopher)
+
+		if time.Since(start) > timeout {
+			break
+		}
+	}
+}
+
+//==position is in buffer bound
+func valid(x, y int) bool {
+	if x >= width || x < 0 || y >= height || y < 0 {
+		return false
+	}
+	return true
+}
+
+//==set rune at position in buffer
+func set(x, y int, c uint8) {
+	if !valid(x, y) {
+		return
+	}
+	buffer[x+(y*(width+1))] = c
+}
+
+//==get rune at position in buffer
+func get(x, y int) uint8 {
+	if !valid(x, y) {
+		return none
+	}
+	return buffer[x+(y*(width+1))]
+}
+
+//==quick 2d vector implementation
+type vector struct{ x, y float64 }
+
+func (v vector) add(b vector) vector { return vector{v.x + b.x, v.y + b.y} }
+func (v vector) pos() (x, y int)     { return int(math.Floor(v.x + 0.5)), int(math.Floor(v.y + 0.5)) }
+func (v vector) normalize() vector   { l := v.len(); return vector{v.x / l, v.y / l} }
+func (v vector) len() float64        { return math.Sqrt(v.x*v.x + v.y*v.y) }
+
+func vecFromAngle(a float64) vector { y, x := math.Sincos(a - math.Pi/2); return vector{x, y} }
