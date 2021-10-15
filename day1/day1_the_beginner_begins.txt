@@ -1,0 +1,49 @@
+Pre-HOW: I wish you guys out there, SUCCESS ! Smoke some butt :-D
+
+How Beginner begins to learn GOLang :
+
+So Laisa, so Gopher, so Gals and Guys from all over the world, all walks of live,
+lets start by asking ourself:
+
+"WHY" should we learn GOLang?
+   What will you get out of learning GOLang as well as a natural language of caliber German, Russian, Persian?
+
+   How about financial freedom ?
+
+   How about turning your ideas into touchable objects ?
+
+   How about your touchable objects saving someone's live ?
+
+   How about that someones's live that saved by your touchable objects, has kids that
+   fly to Mars and scratch your name one some rock on rememberance of saving their parent ?
+
+   So there is lots of great reasons to learn GOLang :-)
+
+"When"
+   Learn in the morning when you're fresh mentally and physically.
+   Jocko Willink, the bad-ass just around the corner, gets up at 04:30 and says, "Disipline equals freedom".
+   So, RISE and SHINE :-D
+   You understand what that means ? Really ? 05:00, 05:30 is also fine. Main thing 2hrs intensive learning, every day.
+   If yes, then your pulling yourself out of bed and learning in the morning when you're fresh mentally and physically!   
+
+"How" do we want to lear go ?
+   What will our learning environment look like ?
+
+   Cheepest/Easiest to More Expensive to Most Expensive.
+
+   Since I wish to help the ones in developing countries break-out through
+   the learning of knowledge, we'll just start with the
+   Playground
+
+   I have a Youtube channel : https://www.youtube.com/channel/UCfu8oCyYYlfkU1uosOr1BYQ
+   I'll upload lots of videos, walking you through the lessions I have here in my GOLang Repo.
+   If my vids are helpful, appreciate a thumbs-up/subscribe to my channel.
+   That way, I'll keep you supplied with "brain-food" and I love the collaboration :-D
+
+   I'll be breaking the learning plan into :
+   1) basics, starting in the
+        primitive_data_types : https://github.com/cisgoio/GOLang/blob/main/primitive_data_types/variables/variables__play.txt
+
+
+  Cheers,
+  Scottie
