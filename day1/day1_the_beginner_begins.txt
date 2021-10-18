@@ -1,4 +1,4 @@
-Pre-HOW: I wish you guys out there, SUCCESS ! Smoke some butt :-D
+Pre-HOW: I wish you guys out there, SUCCESS ! Smoke some butt and ENJOY LIFE ! :-D
 
 How Beginner begins to learn GOLang :
 
@@ -12,9 +12,9 @@ lets start by asking ourself:
 
    How about turning your ideas into touchable objects ?
 
-   How about your touchable objects saving someone's live ?
+   How about your touchable objects saving someone's liFe ?
 
-   How about that someones's live that saved by your touchable objects, has kids that
+   How about that someones's liFe that saved by your touchable objects, has kids that
    fly to Mars and scratch your name one some rock on rememberance of saving their parent ?
 
    So there is lots of great reasons to learn GOLang :-)
@@ -47,3 +47,5 @@ lets start by asking ourself:
 
   Cheers,
   Scottie
+
+  FEEDBACK/COOLABORATE: rest@cisgo.io
