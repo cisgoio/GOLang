@@ -1,3 +1,5 @@
+day1_the_beginner_begins.
+
 Pre-HOW: I wish you guys out there, SUCCESS ! Smoke some butt and ENJOY LIFE ! :-D
 
 HOW the Beginner begins to learn GOLang :
