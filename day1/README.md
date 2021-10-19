@@ -1,3 +1,15 @@
+README.md  20211019_091112
+
+iabic :-) SDNScottie : day1_the_beginner_begins/README.md  20211019_084534
+, GOLang  20210209_210139
+, Languages, Computer/Natural
+
+{{c1::A}} KW 42
+
+//=================
+//=TOPic,REFs: 
+//=================
+
 day1_the_beginner_begins.
 
 Pre-HOW: I wish you guys out there, SUCCESS ! Smoke some butt and ENJOY LIFE ! :-D
@@ -51,6 +63,30 @@ lets start by asking ourself:
 
    I'll be breaking the learning plan into :
    1)The "basics".   
+    So, start with :
+    primitive_data_types :
+
+    https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/aggregate_types
+    https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/float
+    https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/imaginary_numbers
+    https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/interfaces
+    https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/numbers
+    https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/referenced_types/pointers
+    https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/variables
+
+            
+    In each Chapter, I have text files which teach the technology. E.g. 
+      https://github.com/cisgoio/GOLang/blob/main/primitive_data_types/numbers/int__goplay.txt
+    in "int__goplay.txt", there are Sub-Sections, TOP=Topic, SRC=Source Code Link
+    
+    Take the SRC: int__goplay.txt
+    //=SRC: https://play.golang.org/p/E4tswP0fdC1
+    and just open in new TAB, and start experimenting with changing the file and running it.
+    There is nothing to break :-D
+
+  
+    I'll be coaching you, as I have time after work and periodically update so you guys can keep
+     trucking alone :-)
 
 
   Cheers,
