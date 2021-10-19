@@ -54,7 +54,7 @@ lets start by asking ourself:
         So, start with :
           primitive_data_types :
 
-            [aggregate_types](/primitive_data_types/aggregate_types)
+            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/aggregate_types
             https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/float
             https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/imaginary_numbers
             https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/interfaces
