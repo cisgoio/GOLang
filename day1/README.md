@@ -54,7 +54,7 @@ lets start by asking ourself:
 
    I have a Youtube channel : [Cisgo.io](https://www.youtube.com/channel/UCfu8oCyYYlfkU1uosOr1BYQ)
    Here, I'll have "Walk-through" Videos for the lessons here (soon). Please be patient with me, cause I
-   work on my content before/after my full-day Job :-D So please subscribe, so you know when I've uploaded
+   work on my content before/after my full-day Job :-D So please subscribe; then, you get a HEADS-UP when I've uploaded
    content which helps clear up some complicated topics :-)
 
    In upcoming videos, I'll walking you through the lessions, which I have here in my GOLang Repo.
