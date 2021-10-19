@@ -33,8 +33,8 @@ lets start by asking ourself:
 
    So there is lots of great reasons to learn GOLang :-)
 
-   Start by reading about it's beginning and the Founders, Robert, Rob and Ken. These guys are Powerhouses of Ingenuity! That will get you excited :-)
-   [Founders of GOLang](https://en.wikipedia.org/wiki/Go_(programming_language))
+   Start by reading about it's beginning and the [Founders of GOLang( Robert, Rob and Ken ](https://en.wikipedia.org/wiki/Go_(programming_language)). These guys are Powerhouses of Ingenuity! That will get you excited :-)
+   
 
 "When"
    Learn in the morning when you're fresh mentally and physically.
