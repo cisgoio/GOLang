@@ -65,16 +65,14 @@ lets start by asking ourself:
    1)The "basics".   
     So, start with :
     primitive_data_types :
-
-    https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/aggregate_types
-    https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/float
-    https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/imaginary_numbers
-    https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/interfaces
-    https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/numbers
-    https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/referenced_types/pointers
-    https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/variables
-
-            
+    [ aggregate_types, ](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/aggregate_types)
+    [ float, ](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/float)
+    [ imaginary numbers, ](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/imaginary_numbers)
+    [ interfaces, ](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/interfaces)
+    [ numbers, ](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/numbers)
+    [ pointers, ](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/referenced_types/pointers)
+    [ and variables. ](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/variables)          
+    
     In each Chapter, I have text files which teach the technology. E.g. 
       https://github.com/cisgoio/GOLang/blob/main/primitive_data_types/numbers/int__goplay.txt
     in "int__goplay.txt", there are Sub-Sections, TOP=Topic, SRC=Source Code Link
