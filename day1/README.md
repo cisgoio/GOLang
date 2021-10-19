@@ -73,14 +73,18 @@ lets start by asking ourself:
     [ pointers, ](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/referenced_types/pointers)
     [ and variables. ](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/variables)          
     
-    In each Chapter, I have text files which teach the technology. E.g. 
-      https://github.com/cisgoio/GOLang/blob/main/primitive_data_types/numbers/int__goplay.txt
-    in "int__goplay.txt", there are Sub-Sections, TOP=Topic, SRC=Source Code Link
+    In each Chapter, I have text files which teach the technology. E.g.
+        
+        https://github.com/cisgoio/GOLang/blob/main/primitive_data_types/numbers/int__goplay.txt
+      
+        in "int__goplay.txt", there are Sub-Sections, TOP=Topic, SRC=Source Code Link
     
-    Take the SRC: int__goplay.txt
-    //=SRC: https://play.golang.org/p/E4tswP0fdC1
-    and just open in new TAB, and start experimenting with changing the file and running it.
-    There is nothing to break :-D
+        For example, take the SRC: int__goplay.txt
+    
+            //=SRC: https://play.golang.org/p/E4tswP0fdC1
+    
+        and just open in new WebBrowser TAB, and start experimenting with changing the file and running it.
+        There is nothing to break, everything to LEARN :-D
 
   
     I'll be coaching you, as I have time after work and periodically update so you guys can keep
