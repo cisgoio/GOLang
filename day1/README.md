@@ -54,13 +54,13 @@ lets start by asking ourself:
         So, start with :
           primitive_data_types :
 
-            [aggregate_types](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/aggregate_types)
-            [float](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/float)
-            [imaginary_numbers](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/imaginary_numbers)
-            [interfaces](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/interfaces)
-            [numbers](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/numbers)
-            [referenced_types/pointers](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/referenced_types/pointers)
-            [variables](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/variables)
+            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/aggregate_types
+            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/float
+            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/imaginary_numbers
+            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/interfaces
+            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/numbers
+            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/referenced_types/pointers
+            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/variables
 
             
             In each Chapter, I have text files which teach the technology. E.g. 
