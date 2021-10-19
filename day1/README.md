@@ -40,22 +40,28 @@ lets start by asking ourself:
    the learning of knowledge, we'll just start with the
    Playground
 
-   I have a Youtube channel : https://www.youtube.com/channel/UCfu8oCyYYlfkU1uosOr1BYQ
-   I'll upload lots of videos, walking you through the lessions I have here in my GOLang Repo.
+   I have a Youtube channel : [Cisgo.io](https://www.youtube.com/channel/UCfu8oCyYYlfkU1uosOr1BYQ)
+   Here, I'll have "Walk-through" Videos for the lessons here (soon). Please be patient with me, cause I
+   work on my content before/after my full-day Job :-D So please subscribe, so you know when I've uploaded
+   content which helps clear up some complicated topics :-)
+
+   In upcoming videos, I'll walking you through the lessions, which I have here in my GOLang Repo.
    If my vids are helpful, appreciate a thumbs-up/subscribe to my channel.
    That way, I'll keep you supplied with "brain-food" and I love the collaboration :-D
 
    I'll be breaking the learning plan into :
    1)The "basics".   
         So, start with :
-          primitive_data_types : 
-            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/aggregate_types
-            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/float
-            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/imaginary_numbers
-            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/interfaces
-            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/numbers
-            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/referenced_types/pointers
-            https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/variables
+          primitive_data_types :
+
+            [aggregate_types](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/aggregate_types)
+            [float](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/float)
+            [imaginary_numbers](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/imaginary_numbers)
+            [interfaces](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/interfaces)
+            [numbers](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/numbers)
+            [referenced_types/pointers](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/referenced_types/pointers)
+            [variables](https://github.com/cisgoio/GOLang/tree/main/primitive_data_types/variables)
+
             
             In each Chapter, I have text files which teach the technology. E.g. 
               https://github.com/cisgoio/GOLang/blob/main/primitive_data_types/numbers/int__goplay.txt
