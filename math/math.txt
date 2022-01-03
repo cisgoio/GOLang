@@ -1,0 +1,8 @@
+My references that I read while learning to express written math using GOLang:
+
+https://www.digitalocean.com/community/tutorials/how-to-do-math-in-go-with-operators
+
+
+Take what you lesen and express it Tour way :-)
+Kind Regards,
+Scottie
