@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 )
 
-func PWD_version1() string {
+func get_PWD_version1() string {
 
 	ex, err := os.Executable()
 	if err != nil {
@@ -18,7 +18,7 @@ func PWD_version1() string {
 	return exPath
 }
 
-func PWD_version2() string {
+func get_PWD_version__ABS_PATH() string {
 
 	//==this way works best for giving abs directory of this files location :-)
 
@@ -34,10 +34,10 @@ func PWD_version2() string {
 
 func main() {
 
-	fmt.Println(PWD_version1())
+	fmt.Println(get_PWD_version1())
 
 	//==and then version 2
 
-	fmt.Println(PWD_version2())
+	fmt.Println(get_PWD_version__ABS_PATH())
 
 }
