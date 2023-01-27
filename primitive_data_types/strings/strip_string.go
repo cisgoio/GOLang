@@ -1,3 +1,5 @@
+//credit: https://stackoverflow.com/questions/26916952/go-retrieve-a-string-from-between-two-characters-or-other-strings
+
 package main
 
 import (
