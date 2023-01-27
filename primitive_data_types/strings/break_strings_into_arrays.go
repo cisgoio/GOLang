@@ -17,22 +17,17 @@ func trim_and_split__eg01(my_string string)[]string{
   
 }
 
-func trim_and_split__eg02(my_string string)[]string{
-  
-  //trimmedStr := strings.Trim(my_string)
+func trim_and_split_into_array__using__singleQuote(my_string string) []string {
 
-  //res := strings.Split(trimmedStr, ",")
-  //fmt.Println()
-  return strings.Split(my_string, "'")
-  
+	return strings.Split(my_string, "'")
+
 }
-
 
 func main(){
   
   fmt.Println(trim_and_split__eg01("mystring'device"))
 
-  res_eg01 :=trim_and_split__eg02("mystring'device")
-  fmt.Println(trim_and_split__eg02("mystring'device"))
+  res_eg01 :=trim_and_split_into_array__using__singleQuote("mystring'device")
+  fmt.Println(trim_and_split_into_array__using__singleQuote("mystring'device"))
   fmt.Println(res_eg01[1])
 }
