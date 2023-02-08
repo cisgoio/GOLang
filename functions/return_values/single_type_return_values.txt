@@ -1,0 +1,13 @@
+single type return values, e.g. :
+
+func my_func( my_imput_text string ) processed_text string {
+
+  //= here I do something with my_input_text and return
+  //= it as processed_text string
+  return 
+}
+
+
+!==calling the function
+
+my_processed_text := my_func( "this is the string I want to processs" )
