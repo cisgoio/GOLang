@@ -1,1 +1,17 @@
 multiple_type_return_values
+, e.g. :
+
+
+func split_Name_into_DeviceName_and_FQDN(my_deviceFQDN string) (my_deviceNAME, my_device_DOMAIN string) {
+	//ref: https://stackoverflow.com/questions/60774467/split-a-string-only-by-the-first-element-in-golang/71542449#71542449
+
+	my_deviceNAME, my_device_DOMAIN, _ = strings.Cut(my_deviceFQDN, ".")
+
+	return my_deviceNAME, my_device_DOMAIN
+}
+    
+  ..  
+	my_deviceFQDN := str_array[1]
+
+//==now, calling my function and assigning the variables:
+	my_deviceNAME, my_deviceDOMAIN := split_Name_into_DeviceName_and_FQDN(my_deviceFQDN)    
